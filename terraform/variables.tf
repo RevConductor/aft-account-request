@@ -12,7 +12,7 @@ variable "accounts" {
     last_name     = string,
     change_reason = string,
     tags          = map(string),
-    custom_fields = map(string)
+    custom_fields = optional(map(string), {})
   }))
   default     = {}
   description = "AWS Account Map"
