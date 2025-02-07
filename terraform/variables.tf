@@ -7,7 +7,6 @@ variable "accounts" {
   type = map(object({
     email         = string,
     sso_email     = string,
-    name          = string,
     managed_ou    = string,
     first_name    = string,
     last_name     = string,
