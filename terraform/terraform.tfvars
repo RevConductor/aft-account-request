@@ -10,9 +10,6 @@ accounts = {
     tags = {
       owner = "jerryk"
     }
-    custom_fields = {
-      group = "devtest"
-    }
   },
   phanik = {
     email         = "sandbox-phanik@revconductor.com",
@@ -23,9 +20,6 @@ accounts = {
     change_reason = "PhaniK Sandbox Creation",
     tags = {
       owner = "phanik"
-    }
-    custom_fields = {
-      group = "devtest"
     }
   },
   chrisl = {
@@ -38,9 +32,6 @@ accounts = {
     tags = {
       owner = "chrisl"
     }
-    custom_fields = {
-      group = "devtest"
-    }
   },
   network = {
     email         = "infra-network@revconductor.com",
@@ -51,9 +42,6 @@ accounts = {
     change_reason = "Infrastructure Network Creation",
     tags = {
       owner = "devops",
-    }
-    custom_fields = {
-      group = "infra"
     }
   },
   operations = {
@@ -66,9 +54,6 @@ accounts = {
     tags = {
       owner = "devops",
     }
-    custom_fields = {
-      group = "infra"
-    }
   },
   monitoring = {
     email         = "infra-monitoring@revconductor.com",
@@ -79,9 +64,6 @@ accounts = {
     change_reason = "Infrastructure Monitoring Creation",
     tags = {
       owner = "devops",
-    }
-    custom_fields = {
-      group = "infra"
     }
   },
   shared_services = {
@@ -94,9 +76,6 @@ accounts = {
     tags = {
       owner = "devops",
     }
-    custom_fields = {
-      group = "infra"
-    }
   },
   dev = {
     email         = "workloads-dev@revconductor.com",
@@ -107,9 +86,6 @@ accounts = {
     change_reason = "Dev Workload Monitoring Creation",
     tags = {
       owner = "dev",
-    }
-    custom_fields = {
-      group = "dev"
     }
   },
   stage = {
@@ -122,9 +98,6 @@ accounts = {
     tags = {
       owner = "dev",
     }
-    custom_fields = {
-      group = "dev"
-    }
   },
   prod = {
     email         = "workloads-prod@revconductor.com",
@@ -136,9 +109,6 @@ accounts = {
     tags = {
       owner = "dev",
     }
-    custom_fields = {
-      group = "dev"
-    }
   },
   qa = {
     email         = "workloads-qa@revconductor.com",
@@ -148,10 +118,7 @@ accounts = {
     last_name     = "QA",
     change_reason = "QA Workload Monitoring Creation",
     tags = {
-      owner = "QA",
-    }
-    custom_fields = {
-      group = "QA"
+      owner = "qa",
     }
   },
   ephemeral = {
@@ -164,9 +131,6 @@ accounts = {
     tags = {
       owner = "cicd",
     }
-    custom_fields = {
-      group = "cicd"
-    }
   },
   experimental = {
     email         = "workloads-experimental@revconductor.com",
@@ -177,9 +141,6 @@ accounts = {
     change_reason = "Experimental Workload Monitoring Creation",
     tags = {
       owner = "cicd",
-    }
-    custom_fields = {
-      group = "cicd"
     }
   }
 }
