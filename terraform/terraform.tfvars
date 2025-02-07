@@ -33,7 +33,7 @@ accounts = {
   #     owner = "chrisl"
   #   }
   # },
-  network = {
+  Network = {
     email         = "infra-network@revconductor.com",
     sso_email     = "infra-network@revconductor.com",
     managed_ou    = "Infrastructure",
@@ -44,7 +44,7 @@ accounts = {
       owner = "devops",
     }
   },
-  operations = {
+  Operations = {
     email         = "infra-operations@revconductor.com",
     sso_email     = "infra-operations@revconductor.com",
     managed_ou    = "Infrastructure",
@@ -55,7 +55,7 @@ accounts = {
       owner = "devops",
     }
   },
-  monitoring = {
+  Monitoring = {
     email         = "infra-monitoring@revconductor.com",
     sso_email     = "infra-monitoring@revconductor.com",
     managed_ou    = "Infrastructure",
