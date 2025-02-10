@@ -33,7 +33,7 @@ accounts = {
   #     owner = "chrisl"
   #   }
   # },
-  Network = {
+  network = {
     email         = "infra-network@revconductor.com",
     sso_email     = "infra-network@revconductor.com",
     managed_ou    = "Infrastructure",
@@ -44,18 +44,18 @@ accounts = {
       owner = "devops",
     }
   },
-  # Operations = {
-  #   email         = "infra-operations@revconductor.com",
-  #   sso_email     = "infra-operations@revconductor.com",
-  #   managed_ou    = "Infrastructure",
-  #   first_name    = "Infrastructure",
-  #   last_name     = "Operations",
-  #   change_reason = "Infrastructure Operations Creation",
-  #   tags = {
-  #     owner = "devops",
-  #   }
-  # },
-  Monitoring = {
+  operations = {
+     email         = "infra-operations@revconductor.com",
+     sso_email     = "infra-operations@revconductor.com",
+     managed_ou    = "Infrastructure",
+     first_name    = "Infrastructure",
+     last_name     = "Operations",
+     change_reason = "Infrastructure Operations Creation",
+     tags = {
+       owner = "devops",
+     }
+  },
+  monitoring = {
     email         = "infra-monitoring@revconductor.com",
     sso_email     = "infra-monitoring@revconductor.com",
     managed_ou    = "Infrastructure",
