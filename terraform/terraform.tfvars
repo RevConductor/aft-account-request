@@ -66,28 +66,28 @@ accounts = {
       owner = "devops",
     }
   },
-  # shared_services = {
-  #   email         = "infra-sharedsvc@revconductor.com",
-  #   sso_email     = "infra-sharedsvc@revconductor.com",
-  #   managed_ou    = "Infrastructure",
-  #   first_name    = "Infrastructure",
-  #   last_name     = "SharedSvc",
-  #   change_reason = "Infrastructure SharedSvc Creation",
-  #   tags = {
-  #     owner = "devops",
-  #   }
-  # },
-  # dev = {
-  #   email         = "workloads-dev@revconductor.com",
-  #   sso_email     = "workloads-dev@revconductor.com",
-  #   managed_ou    = "Workloads",
-  #   first_name    = "Workloads",
-  #   last_name     = "Dev",
-  #   change_reason = "Dev Workload Monitoring Creation",
-  #   tags = {
-  #     owner = "dev",
-  #   }
-  # },
+  shared_services = {
+    email         = "infra-sharedsvc@revconductor.com",
+    sso_email     = "infra-sharedsvc@revconductor.com",
+    managed_ou    = "Infrastructure",
+    first_name    = "Infrastructure",
+    last_name     = "SharedSvc",
+    change_reason = "Infrastructure SharedSvc Creation",
+    tags = {
+      owner = "devops",
+    }
+  },
+  dev = {
+    email         = "workloads-dev@revconductor.com",
+    sso_email     = "workloads-dev@revconductor.com",
+    managed_ou    = "Workloads",
+    first_name    = "Workloads",
+    last_name     = "Dev",
+    change_reason = "Dev Workload Monitoring Creation",
+    tags = {
+      owner = "dev",
+    }
+  },
   # stage = {
   #   email         = "workloads-stage@revconductor.com",
   #   sso_email     = "workloads-stage@revconductor.com",
