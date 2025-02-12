@@ -44,17 +44,17 @@ accounts = {
       owner = "devops",
     }
   },
-  operations = {
-     email         = "infra-operations@revconductor.com",
-     sso_email     = "infra-operations@revconductor.com",
-     managed_ou    = "Infrastructure",
-     first_name    = "Infrastructure",
-     last_name     = "Operations",
-     change_reason = "Infrastructure Operations Creation",
-     tags = {
-       owner = "devops",
-     }
-  },
+#  operations = {
+#     email         = "infra-operations@revconductor.com",
+#     sso_email     = "infra-operations@revconductor.com",
+#     managed_ou    = "Infrastructure",
+#     first_name    = "Infrastructure",
+#     last_name     = "Operations",
+#     change_reason = "Infrastructure Operations Creation",
+#     tags = {
+#       owner = "devops",
+#     }
+#  },
   monitoring = {
     email         = "infra-monitoring@revconductor.com",
     sso_email     = "infra-monitoring@revconductor.com",
