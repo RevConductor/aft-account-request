@@ -1,38 +1,38 @@
 requested_by = "AFT Management"
 accounts = {
-  # jerryk = {
-  #   email         = "sandbox-jerryk@revconductor.com",
-  #   sso_email     = "sandbox-jerryk@revconductor.com",
-  #   managed_ou    = "Sandbox",
-  #   first_name    = "Sandbox",
-  #   last_name     = "JerryK",
-  #   change_reason = "JerryK Sandbox Creation",
-  #   tags = {
-  #     owner = "jerryk"
-  #   }
-  # },
-  # phanik = {
-  #   email         = "sandbox-phanik@revconductor.com",
-  #   sso_email     = "sandbox-phanik@revconductor.com",
-  #   managed_ou    = "Sandbox",
-  #   first_name    = "Sandbox",
-  #   last_name     = "PhaniK",
-  #   change_reason = "PhaniK Sandbox Creation",
-  #   tags = {
-  #     owner = "phanik"
-  #   }
-  # },
-  # chrisl = {
-  #   email         = "sandbox-chrisl@revconductor.com",
-  #   sso_email     = "sandbox-chrisl@revconductor.com",
-  #   managed_ou    = "Sandbox",
-  #   first_name    = "Sandbox",
-  #   last_name     = "ChrisL",
-  #   change_reason = "ChrisL Sandbox Creation",
-  #   tags = {
-  #     owner = "chrisl"
-  #   }
-  # },
+  jerryk = {
+    email         = "sandbox-jerryk@revconductor.com",
+    sso_email     = "sandbox-jerryk@revconductor.com",
+    managed_ou    = "Sandbox",
+    first_name    = "Sandbox",
+    last_name     = "JerryK",
+    change_reason = "JerryK Sandbox Creation",
+    tags = {
+      owner = "jerryk"
+    }
+  },
+  phanik = {
+    email         = "sandbox-phanik@revconductor.com",
+    sso_email     = "sandbox-phanik@revconductor.com",
+    managed_ou    = "Sandbox",
+    first_name    = "Sandbox",
+    last_name     = "PhaniK",
+    change_reason = "PhaniK Sandbox Creation",
+    tags = {
+      owner = "phanik"
+    }
+  },
+  chrisl = {
+    email         = "sandbox-chrisl@revconductor.com",
+    sso_email     = "sandbox-chrisl@revconductor.com",
+    managed_ou    = "Sandbox",
+    first_name    = "Sandbox",
+    last_name     = "ChrisL",
+    change_reason = "ChrisL Sandbox Creation",
+    tags = {
+      owner = "chrisl"
+    }
+  },
   network = {
     email         = "infra-network@revconductor.com",
     sso_email     = "infra-network@revconductor.com",
