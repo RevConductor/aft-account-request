@@ -88,39 +88,39 @@ accounts = {
       owner = "dev",
     }
   },
-  # stage = {
-  #   email         = "workloads-stage@revconductor.com",
-  #   sso_email     = "workloads-stage@revconductor.com",
-  #   managed_ou    = "Workloads",
-  #   first_name    = "Workloads",
-  #   last_name     = "Stage",
-  #   change_reason = "Stage Workload Monitoring Creation",
-  #   tags = {
-  #     owner = "dev",
-  #   }
-  # },
-  # prod = {
-  #   email         = "workloads-prod@revconductor.com",
-  #   sso_email     = "workloads-prod@revconductor.com",
-  #   managed_ou    = "Workloads",
-  #   first_name    = "Workloads",
-  #   last_name     = "Prod",
-  #   change_reason = "Prod Workload Monitoring Creation",
-  #   tags = {
-  #     owner = "dev",
-  #   }
-  # },
-  # qa = {
-  #   email         = "workloads-qa@revconductor.com",
-  #   sso_email     = "workloads-qa@revconductor.com",
-  #   managed_ou    = "Workloads",
-  #   first_name    = "Workloads",
-  #   last_name     = "QA",
-  #   change_reason = "QA Workload Monitoring Creation",
-  #   tags = {
-  #     owner = "qa",
-  #   }
-  # },
+  stage = {
+    email         = "workloads-stage@revconductor.com",
+    sso_email     = "workloads-stage@revconductor.com",
+    managed_ou    = "Workloads",
+    first_name    = "Workloads",
+    last_name     = "Stage",
+    change_reason = "Stage Workload Monitoring Creation",
+    tags = {
+      owner = "dev",
+    }
+  },
+  prod = {
+    email         = "workloads-prod@revconductor.com",
+    sso_email     = "workloads-prod@revconductor.com",
+    managed_ou    = "Workloads",
+    first_name    = "Workloads",
+    last_name     = "Prod",
+    change_reason = "Prod Workload Monitoring Creation",
+    tags = {
+      owner = "dev",
+    }
+  },
+  qa = {
+    email         = "workloads-qa@revconductor.com",
+    sso_email     = "workloads-qa@revconductor.com",
+    managed_ou    = "Workloads",
+    first_name    = "Workloads",
+    last_name     = "QA",
+    change_reason = "QA Workload Monitoring Creation",
+    tags = {
+      owner = "qa",
+    }
+  },
   ephemeral = {
     email         = "workloads-ephemeral@revconductor.com",
     sso_email     = "workloads-ephemeral@revconductor.com",
