@@ -33,6 +33,17 @@ accounts = {
       owner = "chrisl"
     }
   },
+  christianl = {
+    email         = "sandbox-christianl@revconductor.com",
+    sso_email     = "sandbox-christianl@revconductor.com",
+    managed_ou    = "Sandbox",
+    first_name    = "Sandbox",
+    last_name     = "ChristianL",
+    change_reason = "ChristianL Sandbox Creation",
+    tags = {
+      owner = "christianl"
+    }
+  },
   network = {
     email         = "infra-network@revconductor.com",
     sso_email     = "infra-network@revconductor.com",
@@ -131,16 +142,5 @@ accounts = {
     tags = {
       owner = "cicd",
     }
-  } #,
-  # experimental = {
-  #   email         = "workloads-experimental@revconductor.com",
-  #   sso_email     = "workloads-experimental@revconductor.com",
-  #   managed_ou    = "Workloads",
-  #   first_name    = "Workloads",
-  #   last_name     = "Experimental",
-  #   change_reason = "Experimental Workload Monitoring Creation",
-  #   tags = {
-  #     owner = "cicd",
-  #   }
-  # }
+  } 
 }
